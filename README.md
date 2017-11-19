@@ -9,7 +9,7 @@ repository recursively:
 
 Configure and build:
 
-    $ cd pmp-tempalte && mkdir build && cd build && cmake .. && make
+    $ cd pmp-template && mkdir build && cd build && cmake .. && make
 
 This will automatically build the pmp-library and its dependecies.
 
