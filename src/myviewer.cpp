@@ -1,12 +1,12 @@
 //=============================================================================
 
-#include <pmp/gl/MeshViewer.h>
+#include "MyViewer.h"
 
 //=============================================================================
 
 int main(int argc, char **argv)
 {
-    pmp::MeshViewer window("MeshViewer", 800, 600);
+    MyViewer window("MyViewer", 800, 600);
 
     if (argc == 2)
         window.loadMesh(argv[1]);
