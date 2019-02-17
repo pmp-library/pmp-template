@@ -6,13 +6,19 @@ cmake_minimum_required(VERSION 3.0.2)
 set(PROJECT_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR})
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR})
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR})
-
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
-# find_package(PMP REQUIRED)
+# compile PMP library
+set(PMP_BUILD_APPS     OFF CACHE BOOL "")
+set(PMP_BUILD_EXAMPLES OFF CACHE BOOL "")
+set(PMP_BUILD_TESTS    OFF CACHE BOOL "")
+set(PMP_BUILD_DOCS     OFF CACHE BOOL "")
 add_subdirectory(external/pmp-library)
+
+# add include directories
 include_directories(${PROJECT_SOURCE_DIR}/external/pmp-library/src)
-include_directories(${PROJECT_SOURCE_DIR}/external//pmp-library/external/imgui/)
+include_directories(${PROJECT_SOURCE_DIR}/external/pmp-library/external/imgui)
+include_directories(${PROJECT_SOURCE_DIR}/external/pmp-library/external/eigen)
 include_directories(${PROJECT_SOURCE_DIR}/external/pmp-library/external/glfw/include)
 include_directories(${PROJECT_SOURCE_DIR}/external/pmp-library/external/glew/include)
 

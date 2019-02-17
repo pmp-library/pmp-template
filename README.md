@@ -15,6 +15,5 @@ This will automatically build the pmp-library and its dependecies.
 
 ## License
 
-As the pmp-library itself, his tempalte is provided under a flexible 3-clause
-BSD [license](./LICENSE.txt), thereby allowing for both open-source and
-commercial usage.
+As the pmp-library itself, this template is provided under the [MIT license](./LICENSE.txt), 
+thereby allowing for both open-source and commercial usage.
