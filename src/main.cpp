@@ -1,8 +1,7 @@
-//=============================================================================
+// Copyright 2011-2021 the Polygon Mesh Processing Library developers.
+// Distributed under a MIT-style license, see LICENSE.txt for details.
 
 #include "MyViewer.h"
-
-//=============================================================================
 
 int main(int argc, char **argv)
 {
@@ -17,5 +16,3 @@ int main(int argc, char **argv)
 
     return window.run();
 }
-
-//=============================================================================

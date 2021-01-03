@@ -1,17 +1,11 @@
-//=============================================================================
-// Copyright (C) 2013-2019 The pmp-library developers
-//
-// This file is part of the Polygon Mesh Processing Library.
-// Distributed under the terms of the MIT license, see LICENSE.txt for details.
-//
-// SPDX-License-Identifier: MIT
-//=============================================================================
+// Copyright 2011-2021 the Polygon Mesh Processing Library developers.
+// Distributed under a MIT-style license, see LICENSE.txt for details.
 
 #include "MyViewer.h"
-#include <imgui.h>
-using namespace pmp;
 
-//=============================================================================
+#include <imgui.h>
+
+using namespace pmp;
 
 void MyViewer::keyboard(int key, int scancode, int action, int mods)
 {
@@ -28,5 +22,3 @@ void MyViewer::keyboard(int key, int scancode, int action, int mods)
         }
     }
 }
-
-//=============================================================================
