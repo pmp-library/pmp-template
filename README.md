@@ -11,7 +11,9 @@ Configure and build:
 
     cd pmp-template && mkdir build && cd build && cmake .. && make
 
-This will automatically build the pmp-library and its dependencies.
+Run the viewer:
+
+    ./myviewer
 
 ## License
 
