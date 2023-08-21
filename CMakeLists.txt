@@ -1,6 +1,5 @@
+cmake_minimum_required(VERSION 3.16.3)
 project(pmp-template)
-
-cmake_minimum_required(VERSION 3.0.2)
 
 # set output paths
 set(PROJECT_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR})
